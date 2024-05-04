@@ -12,8 +12,9 @@
         <input type="text" id="text-input" placeholder="Enter text here.." autofocus>
         <button onclick="generateQRCode()">Generate QR</button>
         <div id="qrcode"></div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-        <script src="app.js"></script>
+        <button id="download-button" style="display:none;" onclick="downloadQRCode()">Download QR Code</button>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
