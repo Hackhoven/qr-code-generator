@@ -1,19 +1,17 @@
-/* Define default light theme colors */
 :root {
     --background-color: #f4f4f4;
     --text-color: #000000;
     --container-bg-color: #ffffff;
-    --button-bg-color: #4CAF50;
+    --button-bg-color: #4CAF50;  
     --button-text-color: #ffffff;
     --input-border-color: #ddd;
 }
 
-/* Dark theme colors */
 .dark-theme {
     --background-color: #333333;
     --text-color: #ffffff;
     --container-bg-color: #424242;
-    --button-bg-color: #388E3C;
+    --button-bg-color: #388E3C;  
     --button-text-color: #ffffff;
     --input-border-color: #555;
 }
@@ -48,7 +46,7 @@ button {
     background-color: var(--button-bg-color);
     color: var(--button-text-color);
     padding: 10px 20px;
-    margin-top: 10px;
+    margin: 10px 0; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
