@@ -13,6 +13,14 @@ A simple web application that allows users to create QR codes based on text inpu
 
 Here are some screenshots of the QR Code Generator in action:
 
+### Main Interface
+![Main Interface](images/main-interface-light.png)
+
+### Dark Mode
+![Dark Mode](images/main-interface-dark.png)
+
+### QR Code Generated
+![QR Code Generated](images/qr-code-generated.png)
 
 
 ## How to Use
@@ -33,4 +41,9 @@ To set up the QR Code Generator locally, follow these steps:
   `cd qr-code-generator`
 3. Open the `index.html` file in your web browser
 
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
+
+# made by Hackhoven !
 
