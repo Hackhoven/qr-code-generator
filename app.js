@@ -1,13 +1,10 @@
 function generateQRCode() {
     var text = document.getElementById("text-input").value;
     var qrContainer = document.getElementById("qrcode");
-    qrContainer.innerHTML = "";
-
+    qrContainer.innerHTML = ""; 
+    
     if (text.trim() !== "") {
-        var canvas = document.createElement("canvas");
-        qrContainer.appendChild(canvas);
-
-        new QRCode(canvas, {
+        new QRCode(qrContainer, {
             text: text,
             width: 128,
             height: 128,
@@ -16,14 +13,11 @@ function generateQRCode() {
             correctLevel: QRCode.CorrectLevel.H
         });
 
-        console.log("QR Code generated:", canvas);
-        console.log("Canvas dimensions:", canvas.width, canvas.height);
         document.getElementById("download-button").style.display = "block";
     } else {
         document.getElementById("download-button").style.display = "none";
     }
 }
-
 
 
 

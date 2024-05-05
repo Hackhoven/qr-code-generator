@@ -34,10 +34,3 @@ input {
     z-index: 1000; 
     position: relative; 
 }
-
-#qrcode canvas {
-    display: block; 
-    border: 1px solid red; 
-}
-
-
