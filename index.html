@@ -8,7 +8,17 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hackhoven's QR Code Generator</h1>
+        <header class="header">
+            <h1>Hackhoven's QR Code Generator</h1>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="theme-switch-checkbox">
+                    <input type="checkbox" id="theme-switch-checkbox" onchange="toggleTheme()" />
+                    <div class="slider round"></div>
+                </label>
+                <em id="toggle-text">Enable Dark Mode</em>
+            </div>
+        </header>
+        
         <input type="text" id="text-input" placeholder="Enter text here.." autofocus>
         <button onclick="generateQRCode()">Generate QR</button>
         <div id="qrcode"></div>
